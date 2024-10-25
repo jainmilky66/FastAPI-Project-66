@@ -33,18 +33,23 @@ project-name/
 ```
 
 ## Prerequisites
+```plaintext
 Docker 
 Python 3.9
+```
 
 ## Installation and Setup
-# Clone the repository
+Clone the repository
+```plaintext
 git clone https://github.com/jainmilky66/FastAPI-Project-66
 cd project-name
+```
 
 ## Usage
-# Running with Docker
+Running with Docker
 Step-by-step instructions on how to build and run the project with Docker.
 
+```plaintext
 # Build the Docker image
 make build
 
@@ -56,13 +61,14 @@ make compose-up
 
 # End the application with Docker Compose
 make compose-down
+```
 
 ## Accessing the Application
-# Explain how to access the app and what URLs to visit.
-
-API Endpoint: http://localhost:8000
-Swagger UI: http://localhost:8000/docs
+Explain how to access the app and what URLs to visit. 
+```plaintext
+API Endpoint: http://localhost:8002
+Swagger UI: http://localhost:8002/docs
+```
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
