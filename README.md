@@ -80,8 +80,9 @@ Testing API Endpoints: Use the Swagger UI at /docs to interact with and test the
 
 
 ## Additional Notes
-Persistence: This setup does not include a database, but you can add one by modifying the docker-compose.yml and connecting it to the FastAPI app.
-Scaling: For deployment, consider using orchestration tools like Kubernetes or Docker Swarm to scale and manage the application.
+1. Persistence: This setup does not include a database, but you can add one by modifying the docker-compose.yml and connecting it to the FastAPI app.
+
+2. Scaling: For deployment, consider using orchestration tools like Kubernetes or Docker Swarm to scale and manage the application.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
