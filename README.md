@@ -70,5 +70,18 @@ API Endpoint: http://localhost:8002
 Swagger UI: http://localhost:8002/docs
 ```
 
+## Development and Testing
+Running Locally: You can also run the FastAPI application locally (without Docker) by executing:
+```plaintext
+uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+```
+This will start the FastAPI server on http://localhost:8002.
+Testing API Endpoints: Use the Swagger UI at /docs to interact with and test the API endpoints directly in your browser.
+
+
+## Additional Notes
+Persistence: This setup does not include a database, but you can add one by modifying the docker-compose.yml and connecting it to the FastAPI app.
+Scaling: For deployment, consider using orchestration tools like Kubernetes or Docker Swarm to scale and manage the application.
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
