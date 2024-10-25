@@ -39,10 +39,15 @@ Python 3.9
 ```
 
 ## Installation and Setup
-Clone the repository
+  * Clone the repository
 ```plaintext
 git clone https://github.com/jainmilky66/FastAPI-Project-66
 cd project-name
+```
+
+  * Install Requirements (if you want to run the app locally without Docker):
+```plaintext
+pip install -r requirements.txt
 ```
 
 ## Usage
